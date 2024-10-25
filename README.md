@@ -10,7 +10,8 @@ installed it correctly.
 
 Once you have done that you can then do this:
 
-1. Download one or more mods below
+1. Download one or more mods below or [here](#contents)
+   ![Where my download button?](./DownloadLink.PNG)
 2. Extract the contents of the downloaded `.zip` file to your Mods folder at
    `Borderlands/Binaries/Mods`
 3. Open `Borderlands.exe` and once you reach the main menu open the console
@@ -45,7 +46,7 @@ You do not need to add your own folder here. I probably shouldn't have added
 mine tbh instead just fork the repo and add to the `README.md` the release of
 your mod. Then once you're ready to release just make a PR to merge the changes
 into the main repo. Alternatively, you can just link to your own release github
-if that is more ideal for you. 
+if that is more ideal for you.
 
 When packaging your mod, package it as a `.zip` file and ensure that the mod can
 be directly extracted to the users `Mods/` directory without any issues.

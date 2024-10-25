@@ -8,7 +8,7 @@ This is a temporary repository to centralise PythonSDK mods for BL1.
   - [Example Mod](./)
 
 - -Ry
-  - [BL1 Commander](./Mods/bl1_commander)
+  - [BL1 Commander](./Mods/-Ry/bl1_commander)
 
 
 ## License

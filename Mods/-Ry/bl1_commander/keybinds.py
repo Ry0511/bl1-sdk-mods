@@ -180,6 +180,7 @@ def on_toggle_ghost():
     if not is_player_available():
         return
 
+    display_hud_message("BL1 Commander", "Toggle Ghost Mode!")
     get_pc().ServerToggleGhost()
 
 
@@ -192,6 +193,7 @@ def on_toggle_hlq_noclip():
     if not is_player_available():
         return
 
+    display_hud_message("BL1 Commander", "Toggle HLQ Noclip!")
     get_pc().ServerToggleHLQ()
 
 
@@ -205,4 +207,5 @@ def on_make_op():
     if not is_player_available():
         return
 
+    display_hud_message("BL1 Commander", "Making Player Max Level & Giving Gear!")
     get_pc().ServerBalanceMe(100, 100)

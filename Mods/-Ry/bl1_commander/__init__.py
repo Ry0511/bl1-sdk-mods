@@ -1,5 +1,6 @@
 from pathlib import Path
 
+import bl1_commander.commands
 import bl1_commander.hooks
 from mods_base import SETTINGS_DIR
 from mods_base import build_mod
@@ -18,7 +19,10 @@ from .keybinds import (
     on_toggle_hlq_noclip,
     on_make_op,
 )
+
 from .hooks import on_player_loaded
+
+from .commands import say_hello_cmd, balance_me_cmd
 
 # Gets populated from `build_mod` below
 __version__: str
@@ -39,9 +43,10 @@ build_mod(
         on_player_ignore_game_speed,
         on_toggle_ghost,
         on_toggle_hlq_noclip,
-        on_make_op,
+        on_make_op
     ],
     hooks=[on_player_loaded],
+    commands=[say_hello_cmd, balance_me_cmd],
     # Defaults to f"{SETTINGS_DIR}/dir_name.json" i.e., ./Settings/bl1_commander.json
     settings_file=Path(f"{SETTINGS_DIR}/BL1Commander.json"),
 )

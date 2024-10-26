@@ -21,18 +21,14 @@ Once you have done that you can then do this:
 
 # Contents
 
-- Example User
-    - [Example Mod](https://www.example.com/)
-    - [Another Example Mod](https://www.example.com/)
-
-
 - -Ry
     - [BL1 Commander](./Mods/-Ry/Releases/BL1Commander/bl1_commander-1.0.0.zip)
 
 
-- Example User 2
+- Example User 2 (DO NOT USE)
     - [Example Mod Again](https://www.example.com/)
     - [Example Mod Once More](https://www.example.com/)
+
 
 # License
 

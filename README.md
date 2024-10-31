@@ -28,6 +28,8 @@ Once you have done that you can then do this:
 - RedxYeti 
   - [Mods](https://github.com/RedxYeti/Yeti-BL1-SDK-Mods)
 
+- MOW531
+  - [Mods](https://github.com/MOW531/MOW531-BL1-SDK-Mods)
 
 # License
 

@@ -25,9 +25,8 @@ Once you have done that you can then do this:
     - [BL1 Commander](./Mods/-Ry/Releases/BL1Commander/bl1_commander-1.0.0.zip)
 
 
-- Example User 2 (DO NOT USE)
-    - [Example Mod Again](https://www.example.com/)
-    - [Example Mod Once More](https://www.example.com/)
+- RedxYeti 
+  - [Mods](https://github.com/RedxYeti/Yeti-BL1-SDK-Mods)
 
 
 # License
